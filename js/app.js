@@ -24,7 +24,7 @@ testApp.config(['$routeProvider','$httpProvider', function($routeProvider,$httpP
         redirectTo: '/tab1'
       });
 
-        //触发全局http加载动画
+    //trigger animation when http request is still in progress
     $httpProvider.interceptors.push(['$q','$rootScope',function($q,$rootScope){
         var numLoadings = 0;
         return {

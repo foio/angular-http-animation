@@ -8,3 +8,6 @@ A demo to  show a loading screen until ajax request is complete. Robust to reque
 2. cd angular-http-animation
 3. http-server ./
 4. open localhost:8080 in browser
+
+
+![angular-animation](angular-animation.gif)
